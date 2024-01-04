@@ -1,5 +1,6 @@
 <template>
-  <div>
+  <div class="bg-stone-950 text-stone-100">
+    <TheNavBar />
     <slot />
   </div>
 </template>
