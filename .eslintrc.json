@@ -22,8 +22,9 @@
         "vue"
     ],
     "rules": {
-        "vue/multi-word-component-names": "off",
         "vue/html-self-closing": "off",
+        "vue/multi-word-component-names": "off",
+        "vue/singleline-html-element-content-newline": "off",
         "semi": [
             "error",
             "never"
