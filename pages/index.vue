@@ -1,9 +1,10 @@
 <template>
   <div
-    class="flex flex-col items-center gap-6 justify-center bg-gradient-to-tr from-gray-900 to-cyan-950 h-screen"
+    class="flex flex-col items-center gap-6 justify-center bg-stone-950 h-screen"
   >
     <BaseButton
       icon="material-symbols-light:10k"
+      :outline="true"
       :error="error"
       :success="success"
       @click="request"

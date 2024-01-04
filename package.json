@@ -1,5 +1,5 @@
 {
-  "name": "training-control-app",
+  "name": "fishing-journal-app",
   "description": "{name} web application",
   "author": {
     "name": "Lucas Ribeiro",
@@ -25,10 +25,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lukinhas711/training-control-app.git"
+    "url": "git+https://github.com/lukinhas711/fishing-journal-app.git"
   },
   "bugs": {
-    "url": "https://github.com/lukinhas711/training-control-app/issues"
+    "url": "https://github.com/lukinhas711/fishing-journal-app/issues"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",

@@ -5,9 +5,9 @@
 </template>
 
 <script setup lang="ts">
-const title = 'ACT - Aplicativo para controle de treino'
-const description = 'Um site para controle de treinamento e progresso'
-const url = 'https://training-control-app.pages.dev'
+const title = 'FJA - Aplicativo diário de pescaria'
+const description = 'Um site para registro de pescaria'
+const url = 'https://fishing-journal-app.pages.dev'
 
 useSeoMeta({
   title,

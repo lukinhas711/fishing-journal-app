@@ -37,11 +37,11 @@ defineProps({
 
 <style lang="postcss" module>
 .button {
-  @apply flex items-center gap-2 bg-cyan-600 py-1 px-4 rounded-lg hover:bg-cyan-500 duration-300 font-bold text-cyan-950;
+  @apply flex items-center gap-2 bg-stone-100 py-1 px-4 rounded-lg hover:bg-stone-300 duration-300 font-bold text-stone-950;
 }
 
 .outline {
-  @apply bg-transparent border border-cyan-500 text-cyan-500 hover:bg-cyan-500 hover:text-cyan-950;
+  @apply bg-transparent border border-stone-100 text-stone-100 hover:bg-stone-900 font-normal;
 }
 
 .success {
