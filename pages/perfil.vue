@@ -34,7 +34,16 @@
       <section class="container mx-auto flex flex-col items-center">
         <TheTabNavigation v-model="tab" :tabs="tabs">
           <section v-if="tab === 'equip'"></section>
-          <section v-if="tab === 'fish'"></section>
+          <section
+            v-if="tab === 'fish'"
+            class="flex flex-col gap-2 items-center py-6 px-2"
+          >
+            <BaseFishCard
+              v-for="(fish, i) in fishes"
+              :key="`${i}-fish`"
+              :fish="fish"
+            />
+          </section>
           <section v-if="tab === 'local'"></section>
         </TheTabNavigation>
       </section>
@@ -49,5 +58,26 @@ const tabs = ref([
   { name: 'Equipamentos', value: 'equip' },
   { name: 'Peixes', value: 'fish' },
   { name: 'Locais', value: 'local' },
+])
+
+const fishes = ref([
+  {
+    image: '',
+    name: 'Piranha',
+    width: '24',
+    weigth: '0.1',
+    quantity: 3,
+    date: '24/12/2023',
+    isTrophy: false,
+  },
+  {
+    image: '',
+    name: 'Traíra',
+    width: '28',
+    weigth: '0.2',
+    quantity: 1,
+    date: '24/12/2023',
+    isTrophy: false,
+  },
 ])
 </script>
