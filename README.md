@@ -4,6 +4,8 @@
 - data base [not started]
 - backend [not started]
 
+[Test Here](https://fishing-journal-app.pages.dev/)
+
 
 ## Nuxt 3 Minimal Starter
 
