@@ -1,4 +1,11 @@
-# Nuxt 3 Minimal Starter
+# Fishing Journal App
+
+- frontend [doing]
+- data base [not started]
+- backend [not started]
+
+
+## Nuxt 3 Minimal Starter
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
