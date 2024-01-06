@@ -1,36 +1,47 @@
 <template>
   <div
     :class="[
-      'flex items-center justify-between rounded-lg w-10/12 h-20   overflow-hidden',
+      'flex items-center justify-between rounded-lg w-full h-20 overflow-hidden hover:scale-105 cursor-pointer duration-300 border-2 border-transparent bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-60',
       ,
       {
-        'border border-indigo-700 bg-indigo-950': fish.isTrophy,
+        'bg-indigo-950': fish.isTrophy,
       },
       {
-        'border border-stone-100 bg-stone-800': !fish.isTrophy,
+        'bg-stone-800': !fish.isTrophy,
       },
     ]"
   >
-    <img
-      src="https://loremflickr.com/80/80/fish"
-      alt="Foto do peixe em questão"
-    />
+    <div class="flex items-center gap-1">
+      <img
+        :src="fish.image"
+        :alt="`Foto de ${fish.name}`"
+        width="80"
+        height="80"
+        class="w-20 h-20 rounded-lg"
+      />
 
-    <ul class="p-1">
-      <li>
-        <h3 class="text-lg font-semibold">
-          {{ fish.name ? fish.name : '---' }}
-        </h3>
-      </li>
-      <li class="flex items-center gap-1">
-        <span class="font-semibold">Peso:</span>
-        <span>{{ fish.weigth ? `${fish.weigth}kg` : '---' }}</span>
-      </li>
-      <li class="flex items-center gap-1">
-        <span class="font-semibold">Tamanho:</span>
-        <span>{{ fish.width ? `${fish.width}cm` : '---' }}</span>
-      </li>
-    </ul>
+      <ul class="p-1">
+        <li>
+          <h3 class="text-lg font-semibold">
+            {{ fish.name ? fish.name : '---' }}
+          </h3>
+        </li>
+        <li class="flex items-center gap-1">
+          <Icon name="ic:twotone-balance" class="w-5 h-5" />
+          <span class="font-semibold">Peso:</span>
+          <span class="italic">{{
+            fish.weigth ? `${fish.weigth}kg` : '---'
+          }}</span>
+        </li>
+        <li class="flex items-center gap-1">
+          <Icon name="bxs:ruler" class="w-5 h-5" />
+          <span class="font-semibold">Tamanho:</span>
+          <span class="italic">{{
+            fish.width ? `${fish.width}cm` : '---'
+          }}</span>
+        </li>
+      </ul>
+    </div>
     <div class="h-full mr-2 flex flex-col items-center justify-between">
       <div></div>
       <div

@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-stone-950 text-stone-300">
+  <div class="bg-gradient-to-b from-stone-950 to-stone-700 text-stone-300">
     <TheNavBar />
     <slot />
   </div>
