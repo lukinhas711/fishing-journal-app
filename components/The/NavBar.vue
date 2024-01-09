@@ -12,7 +12,7 @@
         <h1>Diario de pesca</h1>
       </nuxt-link>
 
-      <nuxt-link to="/perfil">
+      <nuxt-link to="/">
         <img
           src="https://avatars.githubusercontent.com/u/49355209?v=1"
           alt="Foto do pescador"
