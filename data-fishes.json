@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Piranha", 
+    "slug": "piranha", 
+    "image": "/piranha.png" ,
+    "description": "Lorem",
+    "max-width": "26cm",
+    "whather": "doce",
+    "habitat": ["rios", "lagos"]
+  },
+  {
+    "name": "Traíra", 
+    "slug": "traira", 
+    "image": "/traira.png" ,
+    "description": "Lorem",
+    "max-width": "70cm",
+    "whather": "doce",
+    "habitat": ["rios", "lagos"]
+  },
+  {
+    "name": "Tucunaré Amarelo", 
+    "slug": "tucunare-amarelo", 
+    "image": "/tucunare-amarelo.png" ,
+    "description": "Lorem",
+    "max-width": "30cm",
+    "whather": "doce",
+    "habitat": ["represas", "rios"]
+  }
+]
