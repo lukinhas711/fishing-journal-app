@@ -4,26 +4,47 @@
     "slug": "piranha", 
     "image": "/piranha.png" ,
     "description": "Lorem",
-    "max-width": "26cm",
+    "maxWidth": "26cm",
     "whather": "doce",
-    "habitat": ["rios", "lagos"]
+    "habitat": [
+      { "name": "rios", "background": "#0e7490" },
+      { "name": "lagos", "background": "#0f766e" }
+    ]
   },
   {
     "name": "Traíra", 
     "slug": "traira", 
     "image": "/traira.png" ,
     "description": "Lorem",
-    "max-width": "70cm",
+    "maxWidth": "70cm",
     "whather": "doce",
-    "habitat": ["rios", "lagos"]
+    "habitat": [
+      { "name": "rios", "background": "#0e7490" },
+      { "name": "lagos", "background": "#0f766e" }
+    ]
   },
   {
     "name": "Tucunaré Amarelo", 
     "slug": "tucunare-amarelo", 
     "image": "/tucunare-amarelo.png" ,
     "description": "Lorem",
-    "max-width": "30cm",
+    "maxWidth": "30cm",
     "whather": "doce",
-    "habitat": ["represas", "rios"]
+    "habitat": [
+      { "name": "represas", "background": "#44403c" },
+      { "name": "rios", "background": "#0e7490" }
+    ]
+  },
+  {
+    "name": "Tucunaré Borboleta", 
+    "slug": "tucunare-borboleta", 
+    "image": "/tucunare-borboleta.png" ,
+    "description": "Lorem",
+    "maxWidth": "60cm",
+    "whather": "doce",
+    "habitat": [
+      { "name": "rios", "background": "#0e7490" },
+      { "name": "lagos", "background": "#0f766e" }
+    ]
   }
 ]

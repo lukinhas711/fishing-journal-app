@@ -60,15 +60,7 @@
 </template>
 
 <script setup lang="ts">
-interface IFish {
-  image: string
-  name: string
-  width: string
-  weigth: string
-  date: string
-  quantity: number
-  isTrophy: boolean
-}
+import type { IFish } from '@/types/data-fishes';
 
 defineProps({
   fish: {
