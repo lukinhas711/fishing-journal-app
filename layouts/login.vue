@@ -1,14 +1,14 @@
 <template>
-  <div class="bg-stone-950 text-stone-300 min-h-svh">
-    <TheNavBar />
+  <div
+    class="flex items-center justify-center bg-stone-950 text-stone-300 min-h-svh"
+  >
     <slot />
   </div>
 </template>
 
 <script setup lang="ts">
-const title = 'FJA - Aplicativo diário de pescaria'
+const title = 'FJA - Login'
 const description = 'Um site para registrar sua pescaria'
-const url = 'https://fishing-journal-app.pages.dev'
 
 useSeoMeta({
   title,
@@ -19,7 +19,6 @@ useSeoMeta({
   ogDescription: description,
   twitterDescription: description,
 
-  ogUrl: url,
   robots: {
     index: true,
     follow: true,
@@ -31,11 +30,11 @@ useHead({
   htmlAttrs: {
     lang: 'pt-BR',
   },
-  link: [
-    {
-      rel: 'canonical',
-      href: url,
-    },
-  ],
+  // link: [
+  //   {
+  //     rel: 'canonical',
+  //     href: url,
+  //   },
+  // ],
 })
 </script>
