@@ -35,8 +35,12 @@
         <TheTabNavigation v-model="tab" :tabs="tabs">
           <section
             v-if="tab === 'equip'"
-            class="flex flex-col gap-2 items-center py-4 px-6"
+            class="flex flex-col gap-3 items-center text-center py-4 px-6"
           >
+            <h3 class="text-xl font-semibold">Equipamentos</h3>
+            <p>
+              Essa é a configuração que eu mais utilizo do equipamento de pesca.
+            </p>
             <TheGearGrid />
           </section>
           <section
